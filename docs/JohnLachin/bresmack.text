@@ -1,0 +1,48 @@
+           DOCUMENTATION FOR APENDIX III DATA
+ 
+This file contains 315 records with data on cases and controls from the
+Leisure World study of endometrial cancer as related to treatment with
+estrogens for menopausal syptoms and other risk factors.  See the article
+by Mack et al in NEJM 294:1262-1267, 1976 for a full description.
+ 
+The variables are as follows:
+ 
+Number  Name        Description             Codes/Range
+-------------------------------------------------------------------------
+   1    SET         Matched set indicator   1-63
+ 
+   2    CASE        Case-control indicator  0 = Control, 1 = Case 
+ 
+   3    AGE         Age in years            55-83
+ 
+   4    GALL        Gallbladder disease     0 = No, 1 = Yes
+ 
+   5    HYP         Hypertension            0 = No, 1 = Yes 
+ 
+   6    OB          Obesity                 0 = No, 1 = Yes; 9 = Unknown
+ 
+   5    EST         Estrogen usage          0 = No, 1 = Yes
+ 
+   5    DOSE        Dose of conjugated      0 = 0
+                                            1 = 0.3
+                                            2 = 0.301-0.624
+                                            3 = 0.625
+                                            4 = 0.626-1.249
+                                            5 = 1.25
+                                            6 = 1.26-2.50
+                                            9 = Unknown
+ 
+   6    DUR         Duration of estrogen    0-95
+                    use (months)            96=96+
+                                            99=Unknown
+ 
+   9    NON         Non-estrogen drug       0 = No, 1 = Yes
+-------------------------------------------------------------------------
+Notes:
+ 
+1) Unknown obesity codes grouped with nonobese in Chapter 7 analyses
+ 
+2) All results shown in Chapter 7 involving AGE are erroneous!
+ 
+3) For models 2-6 in Table 7.9C on page 267, the DOS and DUR columns
+   should be interchanged.
